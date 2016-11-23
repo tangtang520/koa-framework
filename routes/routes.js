@@ -3,9 +3,9 @@
  */
 'use strict'
 const Router  = require('koa-router');
-const testRouter = require('./test');
+const userRouter = require('./user');
 const router = new Router();
 module.exports = function(app){
-    router.use('/test',testRouter);
+    router.use('/user',userRouter);
     app.use(router.routes());
 }

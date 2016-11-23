@@ -1,12 +1,79 @@
-[2016-11-23 11:05:21.898] [INFO] cheese - GET /test - 10
-[2016-11-23 11:06:04.708] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:06:17.853] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:09:05.373] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:19:20.878] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:19:26.067] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:38:52.820] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:39:12.157] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:39:21.553] [INFO] cheese - GET /test - 10
-[2016-11-23 11:48:00.477] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 11:53:27.392] [ERROR] cheese - mongoose close through app terminal
-[2016-11-23 14:42:20.112] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:53:01.523] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:53:10.300] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:53:26.948] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:53:47.546] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:57:13.118] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:57:30.964] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:57:40.544] [INFO] cheese - GET /user - 12
+[2016-11-23 15:58:46.643] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 15:58:50.516] [INFO] cheese - GET /user - 19
+[2016-11-23 16:02:52.854] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:03:08.231] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:03:35.002] [INFO] cheese - GET /user - 22
+[2016-11-23 16:04:20.673] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:04:26.040] [INFO] cheese - GET /user - 68
+[2016-11-23 16:05:13.580] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:05:30.024] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:05:36.547] [INFO] cheese - GET /user - 68
+[2016-11-23 16:05:38.503] [INFO] cheese - GET /user - 37
+[2016-11-23 16:05:45.425] [INFO] cheese - GET /user - 40
+[2016-11-23 16:27:26.425] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:27:45.862] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:27:47.101] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:28:35.124] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:28:36.189] [INFO] cheese - port is  7000
+[2016-11-23 16:28:36.236] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:28:47.325] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:28:48.566] [INFO] cheese - port is  7000 aa
+[2016-11-23 16:28:48.615] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:29:19.900] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:29:21.093] [INFO] cheese - port is 7000 env is { PATH: '/usr/local/Cellar/mongodb/2.4.9/bin:/Users/tangtang/.nvm/versions/node/v6.9.0/bin:/usr/local/Cellar/mongodb/2.4.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin}:/Users/tangtang/.rvm/bin}:/usr/local/mysql/bin',
+  NVM_IOJS_ORG_VERSION_LISTING: 'https://iojs.org/dist/index.tab',
+  FORCE_COLOR: 'true',
+  MANPATH: '/Users/tangtang/.nvm/versions/node/v6.9.0/share/man:/usr/local/share/man:/usr/share/man:/opt/X11/share/man:/usr/local/git/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man',
+  DEBUG_FD: '1',
+  ELECTRON_NO_ATTACH_CONSOLE: 'true',
+  DEBUG_COLORS: 'true',
+  DISPLAY: '/private/tmp/com.apple.launchd.ZKLufvcQn5/org.macosforge.xquartz:0',
+  MOCHA_COLORS: '1',
+  VERSIONER_PYTHON_VERSION: '2.7',
+  LOGNAME: 'tangtang',
+  NVM_NODEJS_ORG_MIRROR: 'https://nodejs.org/dist',
+  XPC_SERVICE_NAME: 'com.jetbrains.WebStorm.9272',
+  NVM_DIR: '/Users/tangtang/.nvm',
+  SHELL: '/bin/bash',
+  NVM_PATH: '/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node',
+  VERSIONER_PYTHON_PREFER_32_BIT: 'no',
+  USER: 'tangtang',
+  TMPDIR: '/var/folders/fv/w_qj52fd30b4x5blk_vp7v380000gn/T/',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.bqxto1LGcK/Listeners',
+  XPC_FLAGS: '0x0',
+  NVM_IOJS_ORG_MIRROR: 'https://iojs.org/dist',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x19:0x34',
+  Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.4pdbY3n51K/Render',
+  NODE_ENV: 'development',
+  LC_CTYPE: 'zh_CN.UTF-8',
+  NVM_BIN: '/Users/tangtang/.nvm/versions/node/v6.9.0/bin',
+  HOME: '/Users/tangtang' }
+[2016-11-23 16:29:21.150] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:29:27.702] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:29:28.661] [INFO] cheese - port is 7000 env is development
+[2016-11-23 16:29:28.716] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:29:39.653] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:29:40.547] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:29:40.597] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:39:18.268] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:39:19.835] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:39:19.885] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:42:40.495] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:42:41.572] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:42:41.761] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:42:59.274] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:43:00.326] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:43:00.515] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:43:39.562] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:43:40.587] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:43:40.635] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 16:43:46.657] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 16:43:47.658] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 16:43:47.702] [INFO] cheese - redis connected to 139.224.187.31 : 6379

@@ -13,6 +13,7 @@ var base = {
 var specific = {
   development: {
     debug: true,
+    socket: false,
     app: {
       port: 7000,
       name: "dhapi - Dev",
@@ -41,6 +42,7 @@ var specific = {
   },
   production: {
     debug: false,
+    socket: false,
     app: {
       port: 7000,
       name: "dhapi"
@@ -68,6 +70,7 @@ var specific = {
   },
   testApi: {
     debug: true,
+    socket: false,
     app: {
       port: 3000,
       name: "eclapi - Dev",

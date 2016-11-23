@@ -24,6 +24,7 @@ process.on('SIGINT',function(){
  * Load the models
  */
 require('./models');
+require('./redis');
 
 // global middlewares
 app.use(require('koa-bodyparser')());

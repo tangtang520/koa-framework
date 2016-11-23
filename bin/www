@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
+const logger = require('../common/logger');
 const config = require("../config/config");
 /**
  * Get port from environment and store in Express.
@@ -27,8 +28,8 @@ function normalizePort(val) {
   return false;
 }
 
-var port = normalizePort(config.app.port || process.env.PORT || '6000');
-console.log(port);
+var port = normalizePort(config.app.port || process.env.PORT || '7000');
+logger.info('port is',port,',env is',process.env.NODE_ENV);
 // app.set('port', port);
 
 /**
@@ -42,11 +43,9 @@ var server = http.createServer(app.callback());
 /**
  * Create SOCKET server
  */
-
-//var io = require('socket.io')(server);
-//io.on('connection',function(data){
-//  console.log('建立连接成功',data);
-//})
+if(config.socket) {
+  require('../socket.io')(server);
+}
 
 /**
  * Listen on provided port, on all network interfaces.
