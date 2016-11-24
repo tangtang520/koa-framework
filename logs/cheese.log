@@ -803,3 +803,9 @@
 [2016-11-24 16:42:42.818] [INFO] cheese - redis connected to 139.224.187.31 : 6379
 [2016-11-24 16:42:43.194] [DEBUG] cheese - redis_set-->> OK
 [2016-11-24 16:42:43.196] [INFO] cheese - POST /user - 393
+[2016-11-24 17:04:07.446] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 17:04:08.907] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 17:04:08.966] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 17:06:15.421] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 17:06:16.757] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 17:06:16.806] [INFO] cheese - redis connected to 139.224.187.31 : 6379
