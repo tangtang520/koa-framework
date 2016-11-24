@@ -812,3 +812,97 @@
 [2016-11-24 17:10:15.987] [ERROR] cheese - mongoose close through app terminal
 [2016-11-24 17:10:17.339] [INFO] cheese - port is 7000 ,env is development
 [2016-11-24 17:10:17.405] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:45:39.808] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:45:39.828] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:45:40.198] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:45:40.199] [INFO] cheese - POST /user - 392
+[2016-11-24 19:46:01.344] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:46:01.356] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:46:01.764] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:46:01.766] [INFO] cheese - POST /user - 423
+[2016-11-24 19:46:37.135] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:46:37.172] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:46:37.557] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:46:37.559] [INFO] cheese - POST /user - 389
+[2016-11-24 19:46:59.244] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 19:47:00.479] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 19:47:00.528] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:47:09.308] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:47:09.325] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:47:09.729] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:47:09.731] [INFO] cheese - POST /user - 425
+[2016-11-24 19:47:50.878] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:47:50.897] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:47:51.272] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:47:51.274] [INFO] cheese - POST /user - 398
+[2016-11-24 19:47:51.305] [INFO] cheese - ------------------------ {}
+[2016-11-24 19:47:51.309] [INFO] cheese - GET /user - 10
+[2016-11-24 19:48:51.694] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:48:51.707] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:48:52.081] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:48:52.083] [INFO] cheese - POST /user - 391
+[2016-11-24 19:48:52.113] [INFO] cheese - ------------------------ { test: '11' }
+[2016-11-24 19:48:52.115] [INFO] cheese - GET /user?test=11 - 10
+[2016-11-24 19:49:57.808] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:49:57.821] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:49:58.194] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:49:58.196] [INFO] cheese - POST /user - 389
+[2016-11-24 19:49:58.230] [INFO] cheese - ------------------------ { test: '11' }
+[2016-11-24 19:49:58.232] [INFO] cheese - token---------->>>>>> { host: '127.0.0.1:49530',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'node-superagent/2.3.0',
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk4ODE5OCwiZXhwIjoxNDgwMDc0NTk4fQ.IxTmLi1xFXqZKNXg0giokoT4IHabVu9I15ltsGu2AwE',
+  connection: 'close' }
+[2016-11-24 19:49:58.234] [INFO] cheese - GET /user?test=11 - 11
+[2016-11-24 19:50:28.407] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:50:28.424] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:50:28.802] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:50:28.804] [INFO] cheese - POST /user - 399
+[2016-11-24 19:50:28.904] [INFO] cheese - ------------------------ { test: '11' }
+[2016-11-24 19:50:28.906] [INFO] cheese - token---------->>>>>> { host: '127.0.0.1:49535',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'node-superagent/2.3.0',
+  authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk4ODIyOCwiZXhwIjoxNDgwMDc0NjI4fQ.1SbIlv64zGzO8BokrvcZ5h5T6FF2st3Jg6hkbmfbKjA',
+  connection: 'close' }
+[2016-11-24 19:50:28.907] [INFO] cheese - GET /user?test=11 - 76
+[2016-11-24 19:50:45.385] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:50:45.400] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:50:45.796] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:50:45.798] [INFO] cheese - POST /user - 415
+[2016-11-24 19:50:45.841] [INFO] cheese - GET /user?test=11 - 8
+[2016-11-24 19:51:09.363] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:51:09.375] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:51:09.775] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:51:09.778] [INFO] cheese - POST /user - 416
+[2016-11-24 19:51:09.811] [INFO] cheese - GET /user?test=11 - 7
+[2016-11-24 19:51:41.081] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:51:41.093] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:51:41.454] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:51:41.456] [INFO] cheese - POST /user - 377
+[2016-11-24 19:51:41.494] [INFO] cheese - GET /user?test=11 - 11
+[2016-11-24 19:52:33.104] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:52:33.126] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:52:33.506] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:52:33.508] [INFO] cheese - POST /user - 405
+[2016-11-24 19:52:33.541] [DEBUG] cheese - token--->> undefined
+[2016-11-24 19:52:33.542] [INFO] cheese - GET /user?test=11 - 8
+[2016-11-24 19:53:02.600] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:53:02.622] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:53:02.980] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:53:02.982] [INFO] cheese - POST /user - 383
+[2016-11-24 19:53:03.013] [DEBUG] cheese - token--->> undefined
+[2016-11-24 19:53:03.014] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:12:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+[2016-11-24 19:53:03.022] [INFO] cheese - GET /user?test=11 - 15
+[2016-11-24 19:53:49.375] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 19:53:49.395] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 19:53:49.727] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 19:53:49.729] [INFO] cheese - POST /user - 354
+[2016-11-24 19:53:49.759] [DEBUG] cheese - token--->> undefined
+[2016-11-24 19:53:49.759] [INFO] cheese - GET /user?test=11 - 6

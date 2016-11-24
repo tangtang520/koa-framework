@@ -6,6 +6,7 @@ const redisCli = require('../redis');
 exports.verify = function* (next) {
   try{
     const token = this.headers.authorization;
+    T.debug('token--->>',token);
     if(typeof token === 'undefined'){
       //不存在
       this.body = {code:-2};
@@ -19,7 +20,6 @@ exports.verify = function* (next) {
     };
     yield next;
   }catch (err){
-    T.error('err-->>',err);
     this.body = {code:-3};
   }
 }

@@ -3,9 +3,10 @@
  */
 const userService = require('../service/user');
 exports.test = function* () {
-  const result = yield userService.test();
-  T.info(result);
-  this.body = result;
+  // const result = yield userService.test();
+  T.info('------------------------',this.query);
+  T.info('token---------->>>>>>',this.headers);
+  this.body = '---';
 };
 
 exports.login = function* () {

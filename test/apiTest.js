@@ -25,6 +25,15 @@ describe('test API',function () {
           token = result.token;
           done();
         });
+    });
+    it('2. test',function (done) {
+      request.get('/user')
+        // .set('Authorization',token)
+        .query({test:'11'})
+        .end((err,res) => {
+          if(err) throw err;
+          done();
+        })
     })
   })
 })
