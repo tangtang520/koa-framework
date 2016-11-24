@@ -8,6 +8,7 @@ var app = require('koa')()
  */
 const config = require("./config/config");
 require('./common/logger');
+require('./common/global');
 
 /**
  * Connect to database
