@@ -27,7 +27,7 @@ exports.login = function* (userName,password) {
     //redis exists true cover false insert
     const redis_set = yield redisCli.set(redisPrefix + userName,token);
     T.debug('redis_set-->>',redis_set);
-    return {code:0,userInfo,token};
+    return {res:'SUCCESS',data:userInfo,token};
   }catch (err){
     T.error('login',err);
     this.body = {};

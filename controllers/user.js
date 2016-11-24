@@ -11,14 +11,15 @@ exports.test = function* () {
 exports.login = function* () {
   try{
     const req = this.request.body;
+    T.info('req--->>',req)
     if(!req.userName || !req.password){
-      this.body = {};
+      this.body = {code:-1};
       return;
     };
     const userInfo = yield userService.login(req.userName,req.password);
     this.body = userInfo;
   }catch (err){
     T.error(err);
-    this.body = {};
+    this.body = {code:-1};
   }
 }

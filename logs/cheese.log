@@ -591,3 +591,215 @@
 [2016-11-24 14:08:33.390] [ERROR] cheese - mongoose close through app terminal
 [2016-11-24 14:08:34.811] [INFO] cheese - port is 7000 ,env is development
 [2016-11-24 14:08:34.854] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:19:06.802] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:19:08.219] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:19:08.270] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:56:34.863] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:56:36.325] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:56:36.372] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:57:41.558] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:57:43.038] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:57:43.088] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:58:23.151] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:58:24.299] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:58:24.349] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:58:30.045] [INFO] cheese - POST /user - 3
+[2016-11-24 15:58:30.055] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:59:03.732] [INFO] cheese - POST /user - 2
+[2016-11-24 15:59:03.745] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:59:37.763] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:59:39.207] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:59:39.257] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:59:41.701] [INFO] cheese - POST /user - 2
+[2016-11-24 15:59:41.711] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:59:52.458] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 15:59:53.709] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 15:59:53.747] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 15:59:57.325] [INFO] cheese - POST /user - 2
+[2016-11-24 15:59:57.339] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:00:55.834] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:00:56.936] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:00:56.988] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:00:59.868] [INFO] cheese - POST /user - 3
+[2016-11-24 16:00:59.881] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:01:53.104] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:01:54.443] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:01:54.485] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:01:57.592] [INFO] cheese - req--->> { userName: '11' }
+[2016-11-24 16:01:57.600] [INFO] cheese - POST /user - 9
+[2016-11-24 16:01:57.610] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:02:11.423] [INFO] cheese - req--->> { userName: '11' }
+[2016-11-24 16:02:11.431] [INFO] cheese - POST /user - 8
+[2016-11-24 16:02:11.437] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:02:30.369] [INFO] cheese - req--->> { userName: '11' }
+[2016-11-24 16:02:30.378] [INFO] cheese - POST /user - 11
+[2016-11-24 16:02:30.383] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:04:34.694] [INFO] cheese - req--->> {}
+[2016-11-24 16:04:34.700] [INFO] cheese - POST /user - 9
+[2016-11-24 16:04:34.711] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:05:53.697] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:05:53.711] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:06:34.046] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:06:34.067] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:06:42.372] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:06:42.391] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:08:33.163] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:08:34.332] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:08:34.393] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:08:38.306] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:08:38.325] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:08:55.047] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:08:56.292] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:08:56.342] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:08:59.834] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:08:59.854] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:09:11.571] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:09:11.590] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:10:40.704] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:10:42.060] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:10:42.117] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:10:44.034] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:10:44.046] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:10:54.737] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:10:54.756] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:11:12.826] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 16:11:23.517] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:11:23.529] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:12:33.488] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:12:33.511] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:12:33.877] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:12:33.880] [INFO] cheese - POST /user - 393
+[2016-11-24 16:13:54.205] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:13:54.223] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:13:54.572] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:13:54.574] [INFO] cheese - POST /user - 370
+[2016-11-24 16:14:02.081] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:14:02.095] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:14:02.512] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:14:02.514] [INFO] cheese - POST /user - 434
+[2016-11-24 16:14:09.653] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:14:09.677] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:14:10.068] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:14:10.070] [INFO] cheese - POST /user - 417
+[2016-11-24 16:15:09.466] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:15:09.486] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:15:09.833] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:15:09.835] [INFO] cheese - POST /user - 372
+[2016-11-24 16:26:21.795] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:26:21.815] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:26:22.212] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:26:22.214] [INFO] cheese - POST /user - 420
+[2016-11-24 16:26:40.377] [INFO] cheese - req--->> { userName: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca1' }
+[2016-11-24 16:26:40.398] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:26:40.722] [INFO] cheese - POST /user - 347
+[2016-11-24 16:27:45.248] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:27:45.266] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:27:45.644] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:27:45.646] [INFO] cheese - POST /user - 400
+[2016-11-24 16:27:53.492] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:27:53.511] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:27:53.855] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:27:53.857] [INFO] cheese - POST /user - 367
+[2016-11-24 16:28:04.850] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:28:04.864] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:28:05.247] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:28:05.249] [INFO] cheese - POST /user - 401
+[2016-11-24 16:28:13.330] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:28:13.347] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:28:13.728] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:28:13.729] [INFO] cheese - POST /user - 401
+[2016-11-24 16:29:07.793] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:29:07.815] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:29:08.165] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:29:08.168] [INFO] cheese - POST /user - 376
+[2016-11-24 16:35:43.065] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 16:35:43.240] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:37:03.585] [ERROR] cheese - login { CastError: Cast to string failed for value "{ userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }" at path "userName"
+    at MongooseError.CastError (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/error/cast.js:26:11)
+    at SchemaString.cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/schema/string.js:455:9)
+    at SchemaString.castForQuery (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/schema/string.js:509:15)
+    at cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/cast.js:181:34)
+    at Query.cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2741:10)
+    at Query.findOne (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:1354:10)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2300:21
+    at Query.exec (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2294:17)
+    at findOne (/Users/tangtang/dh/koa-framework/dao/index.js:12:81)
+    at Object.exports.login (/Users/tangtang/dh/koa-framework/service/user.js:17:32)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:50:10)
+    at toPromise (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:50:10)
+    at Context.args.(anonymous function) (/Users/tangtang/dh/koa-framework/node_modules/mocha-generators/index.js:50:6)
+    at callFnAsync (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runnable.js:316:7)
+    at Runner.runTest (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:444:10)
+    at /Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:550:12
+    at next (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:361:14)
+    at /Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:371:7
+    at next (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:295:14)
+    at Immediate.<anonymous> (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:339:5)
+    at runCallback (timers.js:637:20)
+    at tryOnImmediate (timers.js:610:5)
+    at processImmediate [as _immediateCallback] (timers.js:582:5)
+  message: 'Cast to string failed for value "{ userName: \'11\', password: \'6512bd43d9caa6e02c990b0a82652dca\' }" at path "userName"',
+  name: 'CastError',
+  kind: 'string',
+  value: { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' },
+  path: 'userName',
+  reason: undefined }
+[2016-11-24 16:37:45.815] [ERROR] cheese - login { CastError: Cast to string failed for value "{ userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }" at path "userName"
+    at MongooseError.CastError (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/error/cast.js:26:11)
+    at SchemaString.cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/schema/string.js:455:9)
+    at SchemaString.castForQuery (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/schema/string.js:509:15)
+    at cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/cast.js:181:34)
+    at Query.cast (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2741:10)
+    at Query.findOne (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:1354:10)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2300:21
+    at Query.exec (/Users/tangtang/dh/koa-framework/node_modules/.4.6.8@mongoose/lib/query.js:2294:17)
+    at findOne (/Users/tangtang/dh/koa-framework/dao/index.js:12:81)
+    at Object.exports.login (/Users/tangtang/dh/koa-framework/service/user.js:17:32)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:50:10)
+    at toPromise (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:50:10)
+    at Context.args.(anonymous function) (/Users/tangtang/dh/koa-framework/node_modules/mocha-generators/index.js:50:6)
+    at callFnAsync (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runnable.js:366:21)
+    at Test.Runnable.run (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runnable.js:316:7)
+    at Runner.runTest (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:444:10)
+    at /Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:550:12
+    at next (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:361:14)
+    at /Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:371:7
+    at next (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:295:14)
+    at Immediate.<anonymous> (/Users/tangtang/.nvm/versions/node/v6.9.0/lib/node_modules/.mocha_npminstall/node_modules/.3.1.2@mocha/lib/runner.js:339:5)
+    at runCallback (timers.js:637:20)
+    at tryOnImmediate (timers.js:610:5)
+    at processImmediate [as _immediateCallback] (timers.js:582:5)
+  message: 'Cast to string failed for value "{ userName: \'11\', password: \'6512bd43d9caa6e02c990b0a82652dca\' }" at path "userName"',
+  name: 'CastError',
+  kind: 'string',
+  value: { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' },
+  path: 'userName',
+  reason: undefined }
+[2016-11-24 16:38:38.103] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:38:38.496] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:39:27.073] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:39:27.424] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:40:19.770] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:40:20.141] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:40:48.140] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:40:48.532] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:42:42.805] [INFO] cheese - req--->> { userName: '11', password: '6512bd43d9caa6e02c990b0a82652dca' }
+[2016-11-24 16:42:42.818] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 16:42:43.194] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 16:42:43.196] [INFO] cheese - POST /user - 393
