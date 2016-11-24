@@ -3,7 +3,6 @@
  */
 'use strict'
 const redis = require('redis');
-const logger = require('../common/logger');
 const config = require('../config/config');
 const client = redis.createClient(config.redis.port,config.redis.host,config.redis.options);
 
@@ -11,15 +10,35 @@ const client = redis.createClient(config.redis.port,config.redis.host,config.red
  * redis 链接
  */
 client.on('connect',() => {
-  logger.info('redis connected to',config.redis.host,':',config.redis.port);
+  T.info('redis connected to',config.redis.host,':',config.redis.port);
   // 正式环境清空redis
   if(process.env.NODE_ENV === 'production'){
     client.flushdb();
   };
 });
 client.on('error',(err) => {
-  logger.error('redis error-->>>',err);
+  T.error('redis error-->>>',err);
 });
 
-// export
-module.exports = client;
+exports.set = function (key,value) {
+  return new Promise((resolve,reject) => {
+    client.set(key,value,function (err,result) {
+      if(err){
+        reject(err);
+      };
+      resolve(result);
+    })
+  })
+}
+
+exports.get = function (key) {
+  return new Promise((resolve,reject) => {
+    client.get(key,function (err,result) {
+      if(err){
+        reject(err);
+      };
+      resolve(result);
+    })
+  })
+}
+

@@ -91,5 +91,8 @@ var specific = {
     }
   }
 };
-
 module.exports = _.merge(base, specific[env]);
+//global
+global.secret = 'dhapi';
+//redis key prefix
+global.redisPrefix = 'jwtUser-';

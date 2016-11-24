@@ -2,15 +2,15 @@
  * Created by tangtang on 2016/11/23.
  */
 const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 const config = require("../config/config");
 const DBConfig = config.mongo;
 const options = DBConfig.option;
 const conStr = DBConfig.url;
-const logger = require('../common/logger');
 //连接复制集
 mongoose.connect(conStr,options,function (err) {
     if(err){
-      logger.error('connect to mongodb error',err);
+      T.error('connect to mongodb error',err);
       process.exit(1);
     }
 });

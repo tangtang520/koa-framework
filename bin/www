@@ -7,7 +7,6 @@
 var app = require('../app');
 var debug = require('debug')('demo:server');
 var http = require('http');
-const logger = require('../common/logger');
 const config = require("../config/config");
 /**
  * Get port from environment and store in Express.
@@ -29,7 +28,9 @@ function normalizePort(val) {
 }
 
 var port = normalizePort(config.app.port || process.env.PORT || '7000');
-logger.info('port is',port,',env is',process.env.NODE_ENV);
+
+
+T.info('port is',port,',env is',process.env.NODE_ENV);
 // app.set('port', port);
 
 /**

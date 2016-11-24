@@ -77,3 +77,517 @@
 [2016-11-23 16:43:46.657] [ERROR] cheese - mongoose close through app terminal
 [2016-11-23 16:43:47.658] [INFO] cheese - port is 7000 ,env is development
 [2016-11-23 16:43:47.702] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:46:54.126] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:46:56.152] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:46:56.220] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:47:22.988] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:47:24.692] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:47:24.751] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:47:33.185] [INFO] cheese - GET /test - 6
+[2016-11-23 21:47:56.985] [ERROR] cheese - server error TypeError: Cannot use 'in' operator to search for 'isDelete' in undefined
+    at queryIncludesIsDelete (/Users/tangtang/dh/koa-framework/dao/index.js:30:24)
+    at find (/Users/tangtang/dh/koa-framework/dao/index.js:15:33)
+    at Object.exports.test (/Users/tangtang/dh/koa-framework/service/user.js:12:20)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:69:7) { request: 
+   { method: 'GET',
+     url: '/user',
+     header: 
+      { host: 'localhost:7000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, sdch, br',
+        'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+        cookie: 'Webstorm-82189273=aa381380-707b-4184-80d5-d84ac3dedc2a; csrftoken=gtmpnCqLI9zSIUNFSKHO6VkYaA6eMtRaUeZHFCa29Nm5XlfUNdF4XHuWkZH8zim2; Webstorm-82189274=13b9ebc3-066f-4dd2-96c6-e723d155ab6b' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2016-11-23 21:49:13.954] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:49:15.550] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:49:15.615] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:49:20.146] [INFO] cheese - GET /user - 65
+[2016-11-23 21:51:34.339] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:51:35.589] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:51:35.654] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:51:38.698] [INFO] cheese - GET /user - 60
+[2016-11-23 21:51:43.771] [INFO] cheese - GET /user - 33
+[2016-11-23 21:52:31.374] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:52:32.762] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:52:32.813] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:52:35.136] [INFO] cheese - GET /user - 65
+[2016-11-23 21:52:37.286] [INFO] cheese - GET /user - 39
+[2016-11-23 21:53:16.220] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:53:17.723] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:53:17.777] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:53:18.458] [INFO] cheese - [ { _id: 58354dd9ec6606e91273cda0,
+    userName: '11',
+    password: '11',
+    __v: 0,
+    isDelete: false,
+    updateTime: 2016-11-23T08:05:45.386Z,
+    createTime: 2016-11-23T08:05:45.386Z } ]
+[2016-11-23 21:53:18.463] [INFO] cheese - GET /user - 68
+[2016-11-23 21:53:48.199] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:53:49.681] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:53:49.744] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:53:50.488] [INFO] cheese - GET /user - 67
+[2016-11-23 21:54:15.091] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:54:16.604] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:54:16.660] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:54:20.457] [INFO] cheese - GET /user - 66
+[2016-11-23 21:54:25.435] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:54:27.452] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:54:27.509] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:54:27.912] [INFO] cheese - GET /user - 66
+[2016-11-23 21:54:48.290] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:54:49.726] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:54:49.784] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 21:54:50.509] [INFO] cheese - [ { _id: 58354dd9ec6606e91273cda0,
+    userName: '11',
+    password: '11',
+    __v: 0,
+    isDelete: false,
+    updateTime: 2016-11-23T08:05:45.386Z,
+    createTime: 2016-11-23T08:05:45.386Z } ]
+[2016-11-23 21:54:50.515] [INFO] cheese - GET /user - 80
+[2016-11-23 21:55:06.315] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 21:55:07.673] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 21:55:07.724] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-23 22:02:44.792] [ERROR] cheese - mongoose close through app terminal
+[2016-11-23 22:02:46.285] [INFO] cheese - port is 7000 ,env is development
+[2016-11-23 22:02:46.346] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 10:48:31.198] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 10:48:50.359] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 10:58:26.543] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 10:58:40.417] [INFO] cheese - [ 'port is', 7000, ',env is', 'development' ]
+[2016-11-24 10:58:47.396] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 10:58:57.506] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 10:59:06.612] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 10:59:06.669] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 11:01:11.006] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 11:01:11.061] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 11:39:39.228] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 11:39:40.583] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 11:39:40.647] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:46:53.050] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:46:54.615] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:46:54.662] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:47:18.625] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:47:19.848] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:47:19.899] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:47:22.842] [INFO] cheese - { __v: 0,
+  userName: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  _id: 58367eea4ff2f523f91ecd49,
+  isDelete: false,
+  updateTime: 2016-11-24T05:47:22.789Z,
+  createTime: 2016-11-24T05:47:22.789Z }
+[2016-11-24 13:47:22.849] [INFO] cheese - GET /user - 68
+[2016-11-24 13:47:34.673] [INFO] cheese - { __v: 0,
+  userName: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  _id: 58367ef64ff2f523f91ecd4a,
+  isDelete: false,
+  updateTime: 2016-11-24T05:47:34.640Z,
+  createTime: 2016-11-24T05:47:34.640Z }
+[2016-11-24 13:47:34.675] [INFO] cheese - GET /user - 36
+[2016-11-24 13:49:38.549] [ERROR] cheese - login ReferenceError: logger is not defined
+    at Object.exports.login (/Users/tangtang/dh/koa-framework/service/user.js:29:5)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 13:49:38.559] [INFO] cheese - POST /user - 104
+[2016-11-24 13:49:51.062] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:49:52.396] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:49:52.454] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:49:57.246] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 13:49:57.248] [INFO] cheese - POST /user - 119
+[2016-11-24 13:51:27.022] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:51:28.546] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:51:28.607] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:52:04.967] [ERROR] cheese - { JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:38:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2016-11-24 13:52:04.981] [INFO] cheese - GET /user - 21
+[2016-11-24 13:53:22.698] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:53:24.363] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:53:24.415] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:53:26.916] [ERROR] cheese - err-->> { JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:38:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2016-11-24 13:53:26.936] [INFO] cheese - GET /user - 38
+[2016-11-24 13:53:40.888] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:53:42.105] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:53:42.156] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:53:43.990] [ERROR] cheese - err-->> { JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:38:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2016-11-24 13:53:44.003] [INFO] cheese - GET /user - 20
+[2016-11-24 13:53:49.730] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:53:51.042] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:53:51.098] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:53:51.871] [ERROR] cheese - err-->> { JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:38:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2016-11-24 13:53:51.884] [INFO] cheese - GET /user - 20
+[2016-11-24 13:55:20.052] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:55:21.395] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:55:21.460] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:55:44.234] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:55:45.285] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:55:45.337] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:55:48.102] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:55:48.103] [ERROR] cheese - err-->> { JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:38:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:15:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt must be provided' }
+[2016-11-24 13:55:48.114] [INFO] cheese - GET /user - 19
+[2016-11-24 13:56:51.604] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:56:52.884] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:56:52.934] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:56:56.302] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:56:56.304] [INFO] cheese - GET /user - 8
+[2016-11-24 13:57:03.358] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:57:03.358] [INFO] cheese - GET /user - 1
+[2016-11-24 13:57:05.174] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:57:05.175] [INFO] cheese - GET /user - 1
+[2016-11-24 13:57:23.260] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:57:24.587] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:57:24.638] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:57:27.518] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:57:27.521] [INFO] cheese - GET /user - 12
+[2016-11-24 13:57:42.892] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:57:43.920] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:57:43.963] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:57:46.766] [DEBUG] cheese - token-->> undefined
+[2016-11-24 13:57:46.768] [INFO] cheese - GET /user - 11
+[2016-11-24 13:58:34.722] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:58:35.847] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:58:35.900] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:58:38.420] [DEBUG] cheese - this-->> { request: 
+   { method: 'GET',
+     url: '/user',
+     header: 
+      { host: 'localhost:7000',
+        connection: 'keep-alive',
+        authorization: '1',
+        'postman-token': '8f39ae05-04e6-762d-a507-15ab2398dfef',
+        'cache-control': 'no-cache',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'accept-encoding': 'gzip, deflate, sdch, br',
+        'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2016-11-24 13:58:38.429] [INFO] cheese - GET /user - 15
+[2016-11-24 13:58:47.400] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:58:48.666] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:58:48.720] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:58:49.399] [DEBUG] cheese - this-->> { host: 'localhost:7000',
+  connection: 'keep-alive',
+  authorization: '1',
+  'postman-token': '54271a6a-03c8-312a-2888-c180af69dd4c',
+  'cache-control': 'no-cache',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+  'content-type': 'application/x-www-form-urlencoded',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, sdch, br',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' }
+[2016-11-24 13:58:49.407] [INFO] cheese - GET /user - 14
+[2016-11-24 13:59:01.168] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:59:02.411] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:59:02.463] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:59:04.411] [DEBUG] cheese - this-->> 1
+[2016-11-24 13:59:04.413] [INFO] cheese - GET /user - 9
+[2016-11-24 13:59:21.472] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 13:59:22.680] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 13:59:22.737] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 13:59:27.510] [DEBUG] cheese - this-->> { host: 'localhost:7000',
+  connection: 'keep-alive',
+  authorization: '1',
+  'postman-token': 'fac92673-2022-3843-ca0b-6773909969b3',
+  'cache-control': 'no-cache',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+  'content-type': 'application/x-www-form-urlencoded',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, sdch, br',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' }
+[2016-11-24 13:59:27.517] [INFO] cheese - GET /user - 16
+[2016-11-24 13:59:47.618] [DEBUG] cheese - this-->> { host: 'localhost:7000',
+  connection: 'keep-alive',
+  asshgg: '12',
+  'cache-control': 'no-cache',
+  authorization: '1',
+  'content-type': 'application/x-www-form-urlencoded',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
+  'postman-token': 'ce1ab2f2-4470-204c-54ec-745c4c8fb236',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, sdch, br',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' }
+[2016-11-24 13:59:47.619] [INFO] cheese - GET /user - 2
+[2016-11-24 14:00:09.430] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:00:10.527] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:00:10.578] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:00:26.565] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:00:27.573] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:00:27.637] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:00:30.178] [ERROR] cheese - err-->> { JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:44:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'jwt malformed' }
+[2016-11-24 14:00:30.191] [INFO] cheese - GET /user - 21
+[2016-11-24 14:00:57.328] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:18:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:00:57.330] [INFO] cheese - GET /user - 46
+[2016-11-24 14:01:10.579] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:18:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:01:10.581] [INFO] cheese - GET /user - 51
+[2016-11-24 14:01:34.205] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:01:35.572] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:01:35.630] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:01:43.635] [DEBUG] cheese - redis_value->> null
+[2016-11-24 14:01:43.636] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:19:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:01:43.657] [INFO] cheese - GET /user - 89
+[2016-11-24 14:02:18.299] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:02:19.591] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:02:19.651] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:02:24.288] [DEBUG] cheese - decodes->> { '$__': 
+   { strictMode: true,
+     getters: {},
+     wasPopulated: false,
+     activePaths: { paths: [Object], states: [Object], stateNames: [Object] },
+     emitter: { domain: null, _events: {}, _eventsCount: 0, _maxListeners: 0 } },
+  isNew: false,
+  _doc: 
+   { createTime: '2016-11-24T05:47:34.640Z',
+     updateTime: '2016-11-24T05:47:34.640Z',
+     isDelete: false,
+     __v: 0,
+     password: '6512bd43d9caa6e02c990b0a82652dca',
+     userName: '11',
+     _id: '58367ef64ff2f523f91ecd4a' },
+  _pres: 
+   { '$__original_save': [ null, null, null ],
+     '$__original_validate': [ null ],
+     '$__original_remove': [ null ] },
+  _posts: 
+   { '$__original_save': [],
+     '$__original_validate': [],
+     '$__original_remove': [] },
+  iat: 1479966597,
+  exp: 1480052997 }
+[2016-11-24 14:02:24.332] [DEBUG] cheese - redis_value->> null
+[2016-11-24 14:02:24.333] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:20:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:02:24.345] [INFO] cheese - GET /user - 68
+[2016-11-24 14:02:55.113] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:02:56.370] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:02:56.413] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:03:02.682] [DEBUG] cheese - decodes->> undefined
+[2016-11-24 14:03:02.715] [DEBUG] cheese - redis_value->> null
+[2016-11-24 14:03:02.716] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:20:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:03:02.726] [INFO] cheese - GET /user - 53
+[2016-11-24 14:03:54.225] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:03:55.496] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:03:55.554] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:04:00.752] [DEBUG] cheese - decodes->> { '$__': 
+   { strictMode: true,
+     getters: {},
+     wasPopulated: false,
+     activePaths: { paths: [Object], states: [Object], stateNames: [Object] },
+     emitter: { domain: null, _events: {}, _eventsCount: 0, _maxListeners: 0 } },
+  isNew: false,
+  _doc: 
+   { createTime: '2016-11-24T05:47:34.640Z',
+     updateTime: '2016-11-24T05:47:34.640Z',
+     isDelete: false,
+     __v: 0,
+     password: '6512bd43d9caa6e02c990b0a82652dca',
+     userName: '11',
+     _id: '58367ef64ff2f523f91ecd4a' },
+  _pres: 
+   { '$__original_save': [ null, null, null ],
+     '$__original_validate': [ null ],
+     '$__original_remove': [ null ] },
+  _posts: 
+   { '$__original_save': [],
+     '$__original_validate': [],
+     '$__original_remove': [] },
+  iat: 1479966597,
+  exp: 1480052997 }
+[2016-11-24 14:04:00.792] [DEBUG] cheese - redis_value->> null
+[2016-11-24 14:04:00.793] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:20:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:04:00.801] [INFO] cheese - GET /user - 59
+[2016-11-24 14:04:21.968] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:04:23.129] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:04:23.185] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:04:26.996] [DEBUG] cheese - decodes->> { createTime: '2016-11-24T05:47:34.640Z',
+  updateTime: '2016-11-24T05:47:34.640Z',
+  isDelete: false,
+  __v: 0,
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  userName: '11',
+  _id: '58367ef64ff2f523f91ecd4a' }
+[2016-11-24 14:04:27.035] [DEBUG] cheese - redis_value->> null
+[2016-11-24 14:04:27.036] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:20:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:04:27.050] [INFO] cheese - GET /user - 72
+[2016-11-24 14:04:48.389] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:04:49.507] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:04:49.562] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-24 14:04:51.844] [DEBUG] cheese - redis_value->> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk2NjU5NywiZXhwIjoxNDgwMDUyOTk3fQ.4gv_N8NQtPbOWZKUtvSjeg_7KYunNS0xUE3iBhWqO4w
+[2016-11-24 14:04:51.910] [INFO] cheese - { __v: 0,
+  userName: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  _id: 58368303e80ed7250afc6c43,
+  isDelete: false,
+  updateTime: 2016-11-24T06:04:51.848Z,
+  createTime: 2016-11-24T06:04:51.848Z }
+[2016-11-24 14:04:51.918] [INFO] cheese - GET /user - 121
+[2016-11-24 14:05:03.082] [ERROR] cheese - err-->> { JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (/Users/tangtang/dh/koa-framework/node_modules/.7.1.9@jsonwebtoken/verify.js:79:17)
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:14:25)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19) name: 'JsonWebTokenError', message: 'invalid token' }
+[2016-11-24 14:05:03.090] [INFO] cheese - GET /user - 10
+[2016-11-24 14:05:09.295] [DEBUG] cheese - redis_value->> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk2NjU5NywiZXhwIjoxNDgwMDUyOTk3fQ.4gv_N8NQtPbOWZKUtvSjeg_7KYunNS0xUE3iBhWqO4w
+[2016-11-24 14:05:09.330] [INFO] cheese - { __v: 0,
+  userName: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  _id: 58368315e80ed7250afc6c44,
+  isDelete: false,
+  updateTime: 2016-11-24T06:05:09.296Z,
+  createTime: 2016-11-24T06:05:09.296Z }
+[2016-11-24 14:05:09.331] [INFO] cheese - GET /user - 102
+[2016-11-24 14:05:53.271] [DEBUG] cheese - redis_set-->> OK
+[2016-11-24 14:05:53.272] [INFO] cheese - POST /user - 92
+[2016-11-24 14:05:57.793] [DEBUG] cheese - redis_value->> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk2NzU1MywiZXhwIjoxNDgwMDUzOTUzfQ.99KXI82QoArUQsD3E7TU3ShXqi8O1Kn5h3QrU2FwJa8
+[2016-11-24 14:05:57.794] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:19:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:05:57.795] [INFO] cheese - GET /user - 44
+[2016-11-24 14:05:59.273] [DEBUG] cheese - redis_value->> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImNyZWF0ZVRpbWUiOiJpbml0IiwidXBkYXRlVGltZSI6ImluaXQiLCJpc0RlbGV0ZSI6ImluaXQiLCJfX3YiOiJpbml0IiwicGFzc3dvcmQiOiJpbml0IiwidXNlck5hbWUiOiJpbml0IiwiX2lkIjoiaW5pdCJ9LCJzdGF0ZXMiOnsiaWdub3JlIjp7fSwiZGVmYXVsdCI6e30sImluaXQiOnsiX192Ijp0cnVlLCJjcmVhdGVUaW1lIjp0cnVlLCJ1cGRhdGVUaW1lIjp0cnVlLCJpc0RlbGV0ZSI6dHJ1ZSwicGFzc3dvcmQiOnRydWUsInVzZXJOYW1lIjp0cnVlLCJfaWQiOnRydWV9LCJtb2RpZnkiOnt9LCJyZXF1aXJlIjp7fX0sInN0YXRlTmFtZXMiOlsicmVxdWlyZSIsIm1vZGlmeSIsImluaXQiLCJkZWZhdWx0IiwiaWdub3JlIl19LCJlbWl0dGVyIjp7ImRvbWFpbiI6bnVsbCwiX2V2ZW50cyI6e30sIl9ldmVudHNDb3VudCI6MCwiX21heExpc3RlbmVycyI6MH19LCJpc05ldyI6ZmFsc2UsIl9kb2MiOnsiY3JlYXRlVGltZSI6IjIwMTYtMTEtMjRUMDU6NDc6MzQuNjQwWiIsInVwZGF0ZVRpbWUiOiIyMDE2LTExLTI0VDA1OjQ3OjM0LjY0MFoiLCJpc0RlbGV0ZSI6ZmFsc2UsIl9fdiI6MCwicGFzc3dvcmQiOiI2NTEyYmQ0M2Q5Y2FhNmUwMmM5OTBiMGE4MjY1MmRjYSIsInVzZXJOYW1lIjoiMTEiLCJfaWQiOiI1ODM2N2VmNjRmZjJmNTIzZjkxZWNkNGEifSwiX3ByZXMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W251bGwsbnVsbCxudWxsXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltudWxsXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbbnVsbF19LCJfcG9zdHMiOnsiJF9fb3JpZ2luYWxfc2F2ZSI6W10sIiRfX29yaWdpbmFsX3ZhbGlkYXRlIjpbXSwiJF9fb3JpZ2luYWxfcmVtb3ZlIjpbXX0sImlhdCI6MTQ3OTk2NzU1MywiZXhwIjoxNDgwMDUzOTUzfQ.99KXI82QoArUQsD3E7TU3ShXqi8O1Kn5h3QrU2FwJa8
+[2016-11-24 14:05:59.274] [ERROR] cheese - err-->> Error
+    at Object.exports.verify (/Users/tangtang/dh/koa-framework/common/middleware.js:19:13)
+    at next (native)
+    at Object.dispatch (/Users/tangtang/dh/koa-framework/node_modules/.5.4.0@koa-router/lib/router.js:336:14)
+    at next (native)
+    at Object.serve (/Users/tangtang/dh/koa-framework/node_modules/.1.5.2@koa-static/index.js:43:14)
+    at next (native)
+    at onFulfilled (/Users/tangtang/dh/koa-framework/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2016-11-24 14:05:59.276] [INFO] cheese - GET /user - 41
+[2016-11-24 14:08:33.390] [ERROR] cheese - mongoose close through app terminal
+[2016-11-24 14:08:34.811] [INFO] cheese - port is 7000 ,env is development
+[2016-11-24 14:08:34.854] [INFO] cheese - redis connected to 139.224.187.31 : 6379

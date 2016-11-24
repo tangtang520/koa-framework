@@ -7,7 +7,7 @@ var app = require('koa')()
  * Config
  */
 const config = require("./config/config");
-const logger = require('./common/logger');
+require('./common/logger');
 
 /**
  * Connect to database
@@ -16,7 +16,7 @@ const logger = require('./common/logger');
 process.on('SIGINT',function(){
   var mongoose = require('mongoose');
   mongoose.connection.close(function(){
-    logger.error('mongoose close through app terminal');
+    T.error('mongoose close through app terminal');
     process.exit(0);
   });
 });
@@ -34,7 +34,7 @@ app.use(function *(next){
   var start = new Date;
   yield next;
   var ms = new Date - start;
-  logger.info('%s %s - %s', this.method, this.url, ms);
+  T.info('%s %s - %s', this.method, this.url, ms);
 });
 
 app.use(require('koa-static')(__dirname + '/public'));
@@ -42,7 +42,7 @@ app.use(require('koa-static')(__dirname + '/public'));
 require('./routes/routes')(app);
 // mount root routes
 app.on('error', function(err, ctx){
-  logger.error('server error', err, ctx);
+  T.error('server error', err, ctx);
 });
 
 module.exports = app;
