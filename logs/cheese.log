@@ -906,3 +906,6 @@
 [2016-11-24 19:53:49.729] [INFO] cheese - POST /user - 354
 [2016-11-24 19:53:49.759] [DEBUG] cheese - token--->> undefined
 [2016-11-24 19:53:49.759] [INFO] cheese - GET /user?test=11 - 6
+[2016-11-25 09:54:02.922] [ERROR] cheese - mongoose close through app terminal
+[2016-11-27 20:41:17.520] [INFO] cheese - port is 7000 ,env is development
+[2016-11-27 20:41:17.598] [INFO] cheese - redis connected to 139.224.187.31 : 6379

@@ -1,10 +1,10 @@
 /**
  * Created by tangtang on 2016/11/24.
  */
-global.V = {};
+global.G = {};
 
 
 //global
-V.secret = 'dhapi';
+G.secret = 'dhapi';
 //redis key prefix
-V.redisPrefix = 'jwtUser-';
+G.redisPrefix = 'jwtUser-';

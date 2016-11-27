@@ -12,9 +12,9 @@ exports.verify = function* (next) {
       this.body = {code:-2};
       return;
     };
-    const decodes = jwt.verify(token,V.secret);
+    const decodes = jwt.verify(token,G.secret);
     // redis 判断
-    const redis_value = yield redisCli.get(V.redisPrefix + decodes._doc.userName);
+    const redis_value = yield redisCli.get(G.redisPrefix + decodes._doc.userName);
     if(!redis_value || (!!redis_value && redis_value !== token)){
       throw new Error();
     };

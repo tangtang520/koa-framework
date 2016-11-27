@@ -23,9 +23,9 @@ exports.login = function* (userName,password) {
     };
     //jwt token
     delete userInfo.password;
-    const token = jwt.sign(userInfo,global.V.secret,{ expiresIn: '24h' });
+    const token = jwt.sign(userInfo,global.G.secret,{ expiresIn: '24h' });
     //redis exists true cover false insert
-    const redis_set = yield redisCli.set(V.redisPrefix + userName,token);
+    const redis_set = yield redisCli.set(G.redisPrefix + userName,token);
     T.debug('redis_set-->>',redis_set);
     return {res:'SUCCESS',data:userInfo,token};
   }catch (err){
