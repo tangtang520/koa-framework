@@ -909,3 +909,300 @@
 [2016-11-25 09:54:02.922] [ERROR] cheese - mongoose close through app terminal
 [2016-11-27 20:41:17.520] [INFO] cheese - port is 7000 ,env is development
 [2016-11-27 20:41:17.598] [INFO] cheese - redis connected to 139.224.187.31 : 6379
+[2016-11-27 21:03:27.500] [DEBUG] cheese - token--->> undefined
+[2016-11-27 21:03:27.502] [INFO] cheese - GET /user - 9
+[2016-11-27 21:03:27.790] [INFO] cheese - GET /favicon.ico - 0
+[2016-11-27 21:11:55.037] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:11:55.049] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:11:55.434] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:11:55.436] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:11:56.050] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:11:56.052] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:11:57.076] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:11:57.079] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:11:58.790] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:11:58.793] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:12:01.677] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:12:01.679] [ERROR] cheese - redis error-->>> { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:652:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'UNCERTAIN_STATE',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:12:05.107] [ERROR] cheese - redis error-->>> { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '139.224.187.31',
+  port: 6379 }
+[2016-11-27 21:12:05.109] [ERROR] cheese - redis error-->>> { AbortError: Redis connection in broken state: connection timeout exceeded. It might have been processed.
+    at RedisClient.flush_and_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:350:23)
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:631:14)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at new Command (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/command.js:12:22)
+    at RedisClient.auth (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/lib/individualCommands.js:210:42)
+    at RedisClient.create_stream (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:300:14)
+    at Timeout.retry_connection [as _onTimeout] (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:556:10)
+    at ontimeout (timers.js:372:18)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+  code: 'CONNECTION_BROKEN',
+  command: 'AUTH',
+  args: [ 'dh666666' ],
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:12:05.111] [ERROR] cheese - redis error-->>> { Error: Redis connection in broken state: connection timeout exceeded.
+    at RedisClient.connection_gone (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:637:19)
+    at RedisClient.on_error (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:398:10)
+    at Socket.<anonymous> (/Users/tangtang/dh/koa-framework/node_modules/.2.6.3@redis/index.js:272:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  code: 'CONNECTION_BROKEN',
+  origin: 
+   { Error: Redis connection to 139.224.187.31:6379 failed - connect ECONNREFUSED 139.224.187.31:6379
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '139.224.187.31',
+     port: 6379 } }
+[2016-11-27 21:16:21.701] [INFO] cheese - port is 7000 ,env is development

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138ee7a1-dc8a-48ee-8665-67c6a3a31f64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/global.js" afterPath="$PROJECT_DIR$/common/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/middleware.js" afterPath="$PROJECT_DIR$/common/middleware.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cheese.log" afterPath="$PROJECT_DIR$/logs/cheese.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/user.js" afterPath="$PROJECT_DIR$/service/user.js" />
     </list>
     <ignored path="koa-framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -43,7 +40,17 @@
         <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/user.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -69,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -143,7 +150,6 @@
         <option value="$PROJECT_DIR$/common/resMsg.js" />
         <option value="$PROJECT_DIR$/common/code.js" />
         <option value="$PROJECT_DIR$/common/map.js" />
-        <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/controllers/user.js" />
         <option value="$PROJECT_DIR$/test/apiTest.js" />
@@ -151,6 +157,7 @@
         <option value="$PROJECT_DIR$/common/global.js" />
         <option value="$PROJECT_DIR$/common/middleware.js" />
         <option value="$PROJECT_DIR$/service/user.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
       </list>
     </option>
   </component>
@@ -231,7 +238,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
+            <PATH_ELEMENT USER_OBJECT="models">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -245,7 +252,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="common">
+            <PATH_ELEMENT USER_OBJECT="config">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -479,12 +486,12 @@
       <workItem from="1479883633210" duration="140000" />
       <workItem from="1479883793243" duration="28047000" />
       <workItem from="1480076080279" duration="599000" />
-      <workItem from="1480250350825" duration="125000" />
+      <workItem from="1480250350825" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28911000" />
+    <option name="totallyTimeSpent" value="29896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +503,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23034154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -674,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/cheese.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2424">
@@ -767,34 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/logger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -819,6 +795,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>

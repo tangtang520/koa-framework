@@ -20,7 +20,7 @@ var specific = {
       keys: ["super-secret-hurr-durr"]
     },
     mongo: {
-      url: "mongodb://139.224.187.31/yunapi",
+      url: "mongodb://mongod/yunapi",
       option: {
         db: { native_parser: true },
         server: { poolSize: 5 },
@@ -30,7 +30,7 @@ var specific = {
       }
     },
     redis: {
-      "host": "139.224.187.31",
+      "host": "redis",
       "port": 6379,
       options: {
         password: 'dh666666',
