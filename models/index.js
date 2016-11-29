@@ -18,4 +18,20 @@ mongoose.connect(conStr,options,function (err) {
  * require any model
  */
 require('./user');
-exports.User      = mongoose.model('User');
+require('./appointment');
+require('./branch');
+require('./order');
+require('./order_enquiry');
+require('./order_logs');
+require('./order_quote');
+require('./project');
+
+
+exports.User        = mongoose.model('User');
+exports.Appointment = mongoose.model('Appointment');
+exports.Branch      = mongoose.model('Branch');
+exports.Order       = mongoose.model('Order');
+exports.Enquiry     = mongoose.model('Enquiry');
+exports.OrderLogs   = mongoose.model('OrderLogs');
+exports.Quote       = mongoose.model('Quote');
+exports.Project     = mongoose.model('Project');

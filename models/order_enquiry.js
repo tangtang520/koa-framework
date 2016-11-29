@@ -9,24 +9,24 @@ const EnquirySchema = new Schema({
     type:String,
     required:true
   },
-  enquiryType:{ //询价类型  ENUM-> enquiry_order.enquiryType
+  enquiryType:{ //询价类型  ENUM-> order_enquiry.enquiryType
     type:String,
     required:true
   },
   intro:String,  //询价内容
   imgUrl:[String], //询价图片
   //保险询价
-  insuranceKinds:{   //保险种类1.与去年相同 2.平台推荐 ENUM-> enquiry_order.insuranceKinds
+  insuranceKinds:{   //保险种类1.与去年相同 2.平台推荐 ENUM-> order_enquiry.insuranceKinds
     type:String,
     default:''
   },
-  insuranceType:{ //保险类型 1.新保 2.续保 ENUM-> enquiry_order.insuranceType
+  insuranceType:{ //保险类型 1.新保 2.续保 ENUM-> order_enquiry.insuranceType
     type:String,
     default:''
   },
   originalInsuranceCompany:String, //原投保公司 所传信息待定
   intentionCompany:[String], //意向公司 1.平安 2.人保 3.太平洋
-  customerType:{ //客户类型 公户|个人   ENUM-> enquiry_order.customerType
+  customerType:{ //客户类型 公户|个人   ENUM-> order_enquiry.customerType
     type:String,
     default:''
   },
