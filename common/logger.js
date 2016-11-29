@@ -14,7 +14,7 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger('cheese');
-logger.setLevel(config.debug ? 'DEBUG' : 'ERROR');
+logger.setLevel(config.logger_level || 'ERROR');
 global.T = {};
 T.debug = function (...arg) {
   logger.debug(...arg);

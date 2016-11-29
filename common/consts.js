@@ -25,9 +25,9 @@ module.exports = {
   //订单
   order:{
     orderType:{
-      "维修询价下单":"MAINTAIN_ORDER",
-      "保险询价下单":"INSURANCE_ORDER",
-      "轮胎询价下单":"TIRE_ORDER",
+      "维修询价下单":"MAINTAIN",
+      "保险询价下单":"INSURANCE",
+      "轮胎询价下单":"TIRE",
       "自费保养下单":"MAINTENANCE_ORDER",
       "自费钣喷下单":"SPRAY_ORDER",
       "出险下单":"OUT_OF_DANGER_ORDER",
@@ -51,5 +51,23 @@ module.exports = {
       "中钣金":"MIDDLE_5-20CM",
       "大钣金":"BIG_20-40CM"
     }
+  },
+  order_Logs:{
+    status:{
+      "提交订单":"CREATE_ORDER",
+      "报价中":"DOING_QUOTE", //询价下单才有
+      "已报价":"DONE_QUOTE",  //询价下单才有
+      "提交预约":"SUBMIT_APPOINTMENT",
+      "已预约":"DONE_APPOINTMENT",
+      "技师已指派":"TECHNICIAN_ASSIGNED",
+      "正在送往服务地点":"DOING_SEND_SERVICE_SITE",
+      "已送达服务地点":"DONE_SEND_SERVICE_SITE",
+      "施工完成技师检查无问题":"TECHNICIAN_CHECK_TRUE",
+      "正在送车":"DOING_RETURN_CAR",
+      "车辆已送达":"CAR_RETURN",
+      "已付款":"DONE_PAY",
+      "已完成":"END_SUCCESS",
+      "已取消":"CANCEL"
+    },
   }
 }

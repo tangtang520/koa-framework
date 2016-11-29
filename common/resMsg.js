@@ -1,7 +1,7 @@
 /**
  * Created by tangtang on 2016/11/24.
  */
-global.G = {};
+global.G = global.G || {};
 G.resSuccessMsg = function (data={},options) {
   return Object.assign({
     res: 'SUCCESS',

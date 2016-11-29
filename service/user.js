@@ -8,11 +8,13 @@ const dao = new Dao(User);
 const jwt = require('jsonwebtoken');
 const redisCli = require('../redis');
 
-exports.test = function*(){
+module.exports = dao;
+
+dao.test = function*(){
   return yield dao.create({userName:'11',password:'11'});
 }
 
-exports.login = function* (userName,password) {
+dao.login = function* (userName,password) {
   try{
     const userInfo = yield dao.findOne({userName:userName});
     if(!userInfo){
@@ -32,5 +34,4 @@ exports.login = function* (userName,password) {
     T.error('login',err);
     this.body = {};
   }
-
-}
+};

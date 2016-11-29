@@ -44,6 +44,9 @@ const OrderSchema = new Schema({
     servicePrice:Number
   }],
   //钣喷
+  sprayQuotation:{
+    //这里记录钣喷报价信息
+  },
   paintInfo:{   //喷漆信息
     paintNum:Number, //喷锡数量
     isFullPaint:{   //是否全车喷锡
