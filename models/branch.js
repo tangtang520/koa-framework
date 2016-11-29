@@ -9,6 +9,14 @@ const BranchSchema = new Schema({
   branchId:String,
   name:String,
   //一些其他的信息
+  ownerInfo:{
+    phone:{
+      type:String,
+      required:true,
+      unique:true,
+      match:[/0?(13|14|15|18)[0-9]{9}/,'电话格式不正确']
+    }
+  },
   createTime:{
     type: Date,
     default: Date.now
