@@ -3,8 +3,8 @@
  */
 const
   Router             = require('koa-router'),
-  M                  = require('../common/middleware'),
-  orderController  = require('../controllers/order'),
+  middle             = require('../common/middleware'),
+  orderController    = require('../controllers/order'),
   router             = new Router();
 
 //下单

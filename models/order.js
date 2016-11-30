@@ -4,9 +4,9 @@
 
 /**
  * serviceInfo:{
-  //询价下单
-  enquiryOrderId:String,
-  ,
+  //询价 报价 预约下单
+  quoteOrderId:String,
+
   //自费保养
   serviceInfo:[{  //服务信息
     serviceId:String,//服务id
@@ -68,11 +68,20 @@ const OrderSchema = new Schema({
     branchId:String,
     branchName:String
   },
-  personInfo:{   //下单人信息 从登陆信息中拿
-    personName:String,
+  receiverInfo:{   //抢单人信息
+    name:String,
     phone:String
   },
   price:Number,  //订单的价格
+  appointContent:{  //这里记录预约内容
+
+  },
+  appointInfo:{ //预约信息
+    appointmentTime:String,  //预约时间
+    pickupLocation:String,   //接车地点
+    linkman:String, //联系人
+    phone:String, //联系电话
+  },
   serviceInfo:Mixed,  //这里记录不同的下单 记录不同的内容
   createTime:{
       type: Date,
