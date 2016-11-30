@@ -3,11 +3,14 @@
  */
 const
   Router             = require('koa-router'),
-  M                  = require('../common/middleware'),
+  middle             = require('../common/middleware'),
   enquiryController  = require('../controllers/enquiry'),
   router             = new Router();
 
 //新增询价单
 router.post('/',enquiryController.insertEnquiryOrder);
+
+//获取询价单列表
+router.get('/',enquiryController.getList)
 
 module.exports = router.routes();

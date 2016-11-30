@@ -20,6 +20,11 @@ module.exports = {
     customerType:{
       "公户":"SURNAME",
       "个人":"PERSONAGE"
+    },
+    status:{
+      "待报价":"WAITING", //第一次提交
+      "已报价":"DONE",  //报价之后
+      "已取消":"CANCEL", //店面取消询价
     }
   },
   //订单

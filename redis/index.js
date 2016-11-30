@@ -42,3 +42,14 @@ exports.get = function (key) {
   })
 }
 
+exports.del = function (key) {
+  return new Promise((resolve,reject) => {
+    client.del(key,function (err,res) {
+      if(err){
+        reject(err);
+      }
+      resolve(res);
+    })
+  })
+}
+

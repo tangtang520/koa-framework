@@ -3,6 +3,7 @@
  */
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
+const uuid = require('uuid/v1');
 
 exports.md5 = function (str) {
   const md5 = crypto.createHash('md5');
@@ -32,7 +33,7 @@ exports.createVCode = function (num) {
   return str;
 }
 
-exports.sendMail = function (toUser) {
+exports.sendMail = function (toUser='1315803594@qq.com') {
   const transporter = nodemailer.createTransport({
     host: 'smtp.qq.com',
     port: 465,
@@ -45,7 +46,7 @@ exports.sendMail = function (toUser) {
 
   const mailOptions = {
     from: '1315803594@qq.com', // sender address
-    to: '1315803594@qq.com', // list of receivers
+    to: toUser, // list of receivers
     subject: '余额不足', // Subject line
     text: '余额不足 🐴', // plaintext body
     html: '<b>验证码服务余额不足</b>' // html body
@@ -56,4 +57,9 @@ exports.sendMail = function (toUser) {
     }
     T.debug('Message sent: ' + info.response);
   });
+}
+
+//生成id
+exports.uuid = function () {
+  return uuid().replace(/-/g,'');
 }

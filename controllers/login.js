@@ -5,6 +5,8 @@
 const sms = require('../common/sms');
 const tools = require('../common/tools');
 const branchService = require('../service/branch');
+const middle = require('../common/middleware');
+const redisCli = require('../redis');
 
 exports.getCode = function* () {
   try{
@@ -21,16 +23,27 @@ exports.getCode = function* () {
       return this.body = G.resErrorMsg('xxx','跳转关于页面html-->>>');
     }
     //发送之前要进行检验
+    const isCanSendCode = yield middle.whetherCanSendCode(phone);
+    if(isCanSendCode.code !== 0){
+      return this.body = isCanSendCode;
+    }
+    let code = tools.createVCode(6);
     const sendSMSResult = yield sms.sendMsg({
       mobile:phone,
-      message:'您的验证码为' + tools.createVCode(6) + '【公司名称】'
+      message:'您的验证码为' + code + '【公司名称】'
     });
     T.debug('sendSMSResult-->>',sendSMSResult);
     if(sendSMSResult.error === -20){
       //余额不足 发邮件
+      tools.sendMail();
     }
     if(sendSMSResult.error === 0 && sendSMSResult.msg === 'ok'){
-      //redis操作
+      const codeValue = yield redisCli.get(G.vCodePrefix + phone);
+      redisCli.set(G.vCodePrefix + phone,JSON.stringify({
+        createTime:Date.now(),
+        count:codeValue ? JSON.parse(codeValue).count + 1 : 1,
+        code:code
+      }))
     }
   }catch (err){
 

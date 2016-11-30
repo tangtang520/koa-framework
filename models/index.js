@@ -18,7 +18,7 @@ mongoose.connect(conStr,options,function (err) {
  * require any model
  */
 require('./user');
-require('./appointment');
+require('./order_appoint');
 require('./branch');
 require('./order');
 require('./order_enquiry');
@@ -28,10 +28,10 @@ require('./project');
 
 
 exports.User        = mongoose.model('User');
-exports.Appointment = mongoose.model('Appointment');
 exports.Branch      = mongoose.model('Branch');
 exports.Order       = mongoose.model('Order');
 exports.Enquiry     = mongoose.model('Enquiry');
 exports.OrderLogs   = mongoose.model('OrderLogs');
 exports.Quote       = mongoose.model('Quote');
 exports.Project     = mongoose.model('Project');
+exports.Appoint     = mongoose.model('Appoint');

@@ -1,10 +1,10 @@
 /**
- * Created by tangtang on 2016/11/29.
+ * Created by tangtang on 2016/11/30.
  */
 const models = require('../models');
-const Enquiry = models.Enquiry;
+const Appoint = models.Appoint;
 const Dao = require('../dao');
-const dao = new Dao(Enquiry);
+const dao = new Dao(Appoint);
 const redisCli = require('../redis');
 const consts = require('../common/consts');
 const orderService = require('./order');
@@ -13,3 +13,6 @@ const tools = require('../common/tools');
 
 module.exports = dao;
 
+dao.insertAppointOrder = function* (data) {
+
+}
