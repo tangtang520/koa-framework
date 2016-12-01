@@ -12,6 +12,7 @@ exports.insertQuoteOrder = function* () {
       return this.body = G.resErrorMsg('xxx','缺少enquiryOrderId')
     }
     const result = yield quoteService.insertQuoteOrder(data);
+    this.body = result;
   }catch (err){
     T.error('err--->>',err);
   }

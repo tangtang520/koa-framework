@@ -4,7 +4,7 @@
 const models = require('../models');
 const Appoint = models.Appoint;
 const Dao = require('../dao');
-const dao = new Dao(Appoint);
+const appointService = new Dao(Appoint);
 const redisCli = require('../redis');
 const consts = require('../common/consts');
 const orderService = require('./order');
@@ -13,6 +13,6 @@ const tools = require('../common/tools');
 
 module.exports = dao;
 
-dao.insertAppointOrder = function* (data) {
+appointService.insertAppointOrder = function* (data) {
 
 }

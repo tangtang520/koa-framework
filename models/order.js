@@ -72,10 +72,12 @@ const OrderSchema = new Schema({
     name:String,
     phone:String
   },
-  price:Number,  //订单的价格
-  appointContent:{  //这里记录预约内容
-
+  price:{  //平台报价>=结算价
+    originPrice:Number,   //原始价
+    platformPrice:Number, //平台报价 保险记录三个价格 如果只记录一个价格 记录到该字段
+    settlementPrice:Number //结算价
   },
+  appointContent:Mixed,  //预约服务信息 todo 内容待定
   appointInfo:{ //预约信息
     appointmentTime:String,  //预约时间
     pickupLocation:String,   //接车地点
@@ -96,10 +98,7 @@ const OrderSchema = new Schema({
       default: false
   }
 });
+
 OrderSchema.plugin(BaseModel);
 
-OrderSchema.pre('save',function (next) {
-  this.orderId = tools.uuid();
-  next();
-})
 mongoose.model('Order',OrderSchema);

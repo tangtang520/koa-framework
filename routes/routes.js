@@ -8,13 +8,13 @@ const
   router          = new Router(),
   loginController = require('../controllers/login'),
   quoteRouter     = require('./quote'),
-  appointRouter   = require('./appoint');
+  orderRouter     = require('./order');
 
 
 module.exports = function(app){
 
   //生成验证码
-  router.get('/v_code',loginController.getCode);
+  router.get('/vCode',loginController.getCode);
 
   router.use('/user',userRouter);
 
@@ -25,7 +25,7 @@ module.exports = function(app){
   router.use('/quote',quoteRouter);
 
   //预约单
-  router.use('/appoint',appointRouter);
+  router.use('/order',orderRouter);
 
   app.use(router.routes());
 }

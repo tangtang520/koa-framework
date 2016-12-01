@@ -33,11 +33,7 @@ exports.insertEnquiryOrder = function* () {
     //   }
     // };
     //create
-    data.enquiryOrderId = tools.uuid();
-    data.branchInfo = {};   //todo 从登录信息拿
-    data.personInfo = {};  //todo 从登陆信息拿
-    data.status = consts.order_enquiry.status.待报价;
-    const enquiryOrderInfo = yield enquiryService.create(data);
+    const enquiryOrderInfo = yield enquiryService.insertData(data);
     this.body = G.resSuccessMsg();
   }catch (err){
     T.error('err-->>',err);
