@@ -7,6 +7,7 @@ const tools = require('../common/tools');
 const branchService = require('../service/branch');
 const middle = require('../common/middleware');
 const redisCli = require('../redis');
+const jwt = require('jsonwebtoken');
 
 exports.getCode = function* () {
   try{
@@ -24,7 +25,7 @@ exports.getCode = function* () {
     }
     //发送之前要进行检验
     const isCanSendCode = yield middle.whetherCanSendCode(phone);
-    if(isCanSendCode.code !== 0){
+    if(isCanSendCode.code !== true){
       return this.body = isCanSendCode;
     }
     let code = tools.createVCode(6);
@@ -45,6 +46,41 @@ exports.getCode = function* () {
         code:code
       }))
     }
+  }catch (err){
+
+  }
+}
+
+
+//phone code
+exports.login = function* () {
+  try{
+    const data = this.request.body;
+    T.debug('data-->>',data);
+    const branchInfo = yield branchService.findOne({
+      'managePer.tel':data.phone
+    })
+    if(!branchInfo){
+      return this.body = G.resErrorMsg('xxx','重新申请门店');
+    }
+    //生成jwt 发送token
+    const obj = {
+      branchInfo:{
+        branchId:branchInfo.branchId || '',
+        branchName:branchInfo.name || '',
+      },
+      managerInfo:{
+        managerName:branchInfo.managePer && branchInfo.managePer.name || '',
+        managerId:branchInfo.managePer && branchInfo.managePer.staffId || '',
+        managerPhone:branchInfo.managePer && branchInfo.managePer.tel || '',
+      }
+    };
+
+    const token = jwt.sign(obj,G.jwtSecret);
+    T.debug('token-->>',token);
+    //生成redis
+    const createRedis = yield redisCli.set(G.tokenPrefix + data.phone,token);
+    this.body = G.resSuccessMsg(branchInfo);
   }catch (err){
 
   }

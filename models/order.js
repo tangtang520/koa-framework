@@ -7,12 +7,6 @@
   //询价 报价 预约下单
   quoteOrderId:String,
 
-  //自费保养
-  serviceInfo:[{  //服务信息
-    serviceId:String,//服务id
-    serviceName:String,
-    servicePrice:Number
-  }],
     //钣喷
     sprayQuotation:{
     //这里记录钣喷报价信息
@@ -40,7 +34,6 @@ const tools = require('../common/tools');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 const Mixed = Schema.Types.Mixed;
-
 
 const OrderSchema = new Schema({
   orderId:{
@@ -72,12 +65,15 @@ const OrderSchema = new Schema({
     name:String,
     phone:String
   },
-  price:{  //平台报价>=结算价
-    originPrice:Number,   //原始价
-    platformPrice:Number, //平台报价 保险记录三个价格 如果只记录一个价格 记录到该字段
-    settlementPrice:Number //结算价
+  totalPrice:{
+    originPrice:Number, //这里记录 平台报价或者直接下单填写价格的总金额
+    diffPrice:Number //补差价  为了多开发票
   },
-  appointContent:Mixed,  //预约服务信息 todo 内容待定
+  appointContent:{
+
+  },
+
+
   appointInfo:{ //预约信息
     appointmentTime:String,  //预约时间
     pickupLocation:String,   //接车地点

@@ -11,20 +11,19 @@ exports.verify = function* (next) {
   try{
     const token = this.headers.authorization;
     T.debug('token--->>',token);
-    if(typeof token === 'undefined'){
-      //不存在
-      this.body = {code:-2};
-      return;
-    };
-    const decodes = jwt.verify(token,G.secret);
+    if(!token){
+      return G.resErrorMsg('xxx','缺少 authorization')
+    }
+    const decodes = jwt.verify(token,G.jwtSecret);
     // redis 判断
-    const redis_value = yield redisCli.get(G.redisPrefix + decodes._doc.userName);
+    const redis_value = yield redisCli.get(G.tokenPrefix + decodes._doc.managerInfo.managerPhone);
     if(!redis_value || (!!redis_value && redis_value !== token)){
       throw new Error();
-    };
+    }
     yield next;
+    this.body = G.resSuccessMsg(0);
   }catch (err){
-    this.body = {code:-3};
+    this.body = G.resErrorMsg('xxx','token已失效,请重新登录')
   }
 }
 
@@ -32,13 +31,14 @@ exports.verify = function* (next) {
 // key G.vCodePrefix+phone value {createTime:Date.now(),count:1,code:''}
 
 //检验是否能生成验证码
-exports.whetherCanSendCode = function* (phone) {
+exports.whetherCanSendCode = function* (next) {
   try{
+    const phone = this.query.phone;
     if(!phone){
-      return G.resErrorMsg('xxx','缺少phone');
+      return this.body = G.resErrorMsg('xxx','缺少phone');
     }
     if(!tools.matchPhone(phone)){
-      return G.resErrorMsg('xxx','phone格式不正确');
+      return this.body = G.resErrorMsg('xxx','phone格式不正确');
     }
     let redis_key = G.vCodePrefix + phone;
     const getRedisValueByPhone = yield redisCli.get(redis_key);
@@ -53,14 +53,42 @@ exports.whetherCanSendCode = function* (phone) {
       }else{
         //两次的时间间隔
         if((Date.now() - getRedisValueByPhone.createTime) < G.codeCreateInterval){
-          return G.resErrorMsg(-1,'两次时间间隔不能小于1分钟')
+          return this.body = G.resErrorMsg(-1,'两次时间间隔不能小于1分钟')
         }
         if(valueObj.count >= G.codeMaxCount){
-          return G.resErrorMsg(-1,'超过最大生成次数')
+          return this.body = G.resErrorMsg(-1,'超过最大生成次数')
         }
       }
     }
-    return {code:0};
+    yield next;
+  }catch (err){
+
+  }
+};
+
+//验证码是否正确
+exports.whetherCodeTrue = function* (next) {
+  try{
+    const phone = this.request.body.phone;
+    const code = this.request.body.code;
+    if(!phone){
+      return this.body = G.resErrorMsg('xxx','缺少phone');
+    }
+    if(!code){
+      return this.body = G.resErrorMsg('xxx','缺少code');
+    }
+    const redisValue = yield redisCli.get(G.vCodePrefix + phone);
+    if(!redisValue){
+      return this.body = G.resErrorMsg('xxx','请先获取验证码');
+    }
+    const parseValue = JSON.parse(redisValue);
+    if(parseValue.code !== code){
+      return this.body = G.resErrorMsg('xxx','验证码不正确');
+    }
+    if(Date.now() - parseValue.createTime > G.invalidTime){
+      return this.body = G.resErrorMsg('xxx','验证码已失效');
+    }
+    yield next;
   }catch (err){
 
   }

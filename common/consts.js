@@ -84,7 +84,8 @@ module.exports = {
     operatorType:{
       "店面":"BRANCH",
       "技师":"TECHNICIAN",
-      "后台运营":"OPERATING"
+      "后台运营":"OPERATING",
+      "系统自动":"SYSTEM_AUTO"
     },
     targetType:{
       "询价单":"ENQUIRY_ORDER",
@@ -102,9 +103,11 @@ module.exports = {
       "自费保养下单":"MAINTENANCE_ORDER",
       "自费钣喷下单":"SPRAY_ORDER",
       "出险下单":"OUT_OF_DANGER_ORDER",
-      "任性下单":"WAYWARD_ORDER"
+      "任性下单":"WAYWARD_ORDER",
+      "询价单完成":"ENQUIRY_ORDER_DONE",
+      "报价单失效":"QUOTE_ORDER_INVALID",
       // "询价单取消":"ENQUIRY_ORDER_CANCEL",
-      // "询价单完成":"ENQUIRY_ORDER_DONE",
+
       // "报价单失效":"QUOTE_ORDER_INVALID"
     }
   }

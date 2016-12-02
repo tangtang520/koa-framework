@@ -8,13 +8,20 @@ const
   router          = new Router(),
   loginController = require('../controllers/login'),
   quoteRouter     = require('./quote'),
-  orderRouter     = require('./order');
+  orderRouter     = require('./order'),
+  middle          = require('../common/middleware');
 
 
 module.exports = function(app){
 
   //生成验证码
-  router.get('/vCode',loginController.getCode);
+  router.get('/vCode',middle.whetherCanSendCode,loginController.getCode);
+
+  //登录
+  router.post('/login',middle.whetherCodeTrue,loginController.login);
+
+  //检验token
+  router.post('/auth',middle.verify);
 
   router.use('/user',userRouter);
 

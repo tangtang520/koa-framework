@@ -14,6 +14,10 @@ mongoose.connect(conStr,options,function (err) {
       process.exit(1);
     }
 });
+
+mongoose.connection.on('connected',function(){
+  T.info('mongoose connected to ' + conStr);
+});
 /**
  * require any model
  */

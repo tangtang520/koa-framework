@@ -26,17 +26,34 @@ const QuoteSchema = new Schema({
     type:String,
     default:consts.order_quote.status.正常
   },
-  quoteContent:[{   //这里记录报价内容
-    serviceContent:String,  //比如 太平洋保险
-    eachInfo:[{
-      eachContent:String,   //比如车辆损失险 具体的款项
-      price:{  //平台报价>=结算价
-        originPrice:Number,   //原始价
-        platformPrice:Number, //平台报价
-        settlementPrice:Number //结算价
-      }
+  resPlansInfo:[{   //为了保险公司
+    insurer:String,   //保险公司   PICC(中国人保)、PAIC(中国平安)、CIPC(太平洋保险)
+    rebate:Number, //报价比例
+    priceInfo:{
+      originPrice:Number,   //原始价
+      platformPrice:Number, //平台报价
+      settlementPrice:Number, //结算价
+    },
+    insuranceKinds:[{       //险种信息
+      insuranceId:String, //险种id
+      name:String, //名称
+      limitPrice:String, //责任限额
+      sumInsured:Number   //保险金额
     }]
   }],
+  resGoodsInfo:[{                 //报价商品
+    name:{type: String},         //名称
+    brandInfo:[{
+      brandType:String, //原厂 各个品牌
+      priceInfo:{
+        originPrice:Number,   //原始价
+        platformPrice:Number, //平台报价
+        settlementPrice:Number, //结算价
+      }
+    }],
+    description:{type: String}    //商品本身的描述
+  }],
+
   desc:String,     //报价的描述信息
   createTime:{
     type: Date,
